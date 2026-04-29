@@ -1,0 +1,279 @@
+@font-face {
+    font-family: monse;
+    src: url(./font/Montserrat-Italic-VariableFont_wght.ttf);
+}
+body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10PX;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+dialog {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+
+aside {
+    width: 25vw;
+    height: 100vh;
+    background-color: rgb(200, 72, 250);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    width: 80vw;
+    height: 11vh;
+    background-color: rgb(97, 2, 134);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: monse;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+.busqueda{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 20%;
+    height: 100%;
+}
+.lupa{
+    width: 15%;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 100px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    color: white;
+}
+div {
+    color: rgb(0, 0, 0);
+    font-size:small;
+    font-weight: 13px;
+    font-family:monse;
+}
+
+
+.selectorComic1 {
+    width: 80%;
+    height: 40%;
+    background-image: url(./ELIZABETH/COMIC_ELI_1.jpg);
+    background-size: cover;
+    background-position: column;
+    box-shadow: inset 0 2px 5px black;
+}
+
+.selectorComic2 {
+    width: 80%;
+    height: 40%;
+    background-image: url(./ARAI/La\ Ultima\ Migaja_AraiVazquez_Portada.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 2px 5px black;
+}
+
+.selectorComic3 {
+    width: 80%;
+    height: 40%;
+    background-image: url(./CARLOS/COMIC\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 2px 5px black;
+}
+
+.selectorComic4 {
+    width: 80%;
+    height: 40%;
+    background-image: url(./DAVID/David1.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 2px 5px black; 
+}
+
+.selectorComic5 {
+    width: 80%;
+    height: 40%;
+    background-image: url(./BELEN/Abuela.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 2px 5px black;
+}
+
+.selectorComic6 {
+    width: 80%;
+    height: 40%;
+    background-image: url(./DIEGO/LeonRugiente-1.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 2px 5px black;
+}
+
+.selectorComic7 {
+    width: 80%;
+    height: 40%;
+    background-image: url(./EMILIO/PORTADA\ Emilio.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 2px 5px black;
+}
+
+.selectorComic8 {
+    width: 80%;
+    height: 40%;
+    background-image: url(./GABY/Gaby1.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 2px 5px black;
+}
+
+.selectorComic9 {
+    width: 80%;
+    height: 40%;
+    background-image: url(./GEORGY/Comic\ Georgy\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 2px 5px black;
+}
+
+.selectorComic10 {
+    width: 80%;
+    height: 40%;
+    background-image: url(./ISA/comicIsa1.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 2px 5px black;
+}
+
+.selectorComic11 {
+    width: 80%;
+    height: 40%;
+    background-image: url(./JOCELYN/1_joss.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 2px 5px black;
+}
+
+.selectorComic12 {
+    width: 80%;
+    height: 40%;
+    background-image: url(./LAURA/Laucomic1.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 2px 5px black;
+}
+
+.selectorComic13 {
+    width: 80%;
+    height: 40%;
+    background-image: url(./VANE/Pag\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 2px 5px black;
+}
+
+.selectorComic14 {
+    width: 80%;
+    height: 40%;
+    background-image: url(./YADIRA/PAGINA\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 2px 5px black;
+}
+
+
+main {
+    background-image: url(./fondo.jpg);
+    width: 80vw;
+    height: 100vh;
+}
+
+.containerComic {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerComic img {
+    height: 70%;
+}
+.containerComic1 {
+    display: none;
+}
+
+.containerComic2 {
+    display: none;
+}
+
+.containerComic3 {
+    display: none;
+}
+.containerComic4 {
+    display: none;
+}
+
+.containerComic5 {
+    display: none;
+}
+
+.containerComic6 {
+    display: none;
+}
+.containerComic7 {
+    display: none;
+}
+
+.containerComic8 {
+    display: none;
+}
+
+.containerComic9 {
+    display: none;
+}
+.containerComic10 {
+    display: none;
+}
+
+.containerComic11 {
+    display: none;
+}
+
+.containerComic12 {
+    display: none;
+}
+.containerComic13 {
+    display: none;
+}
+
+.containerComic14 {
+    display: none;
+}
